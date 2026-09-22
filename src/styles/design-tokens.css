@@ -1,0 +1,71 @@
+/* NEXORA AI - Design System Tokens */
+:root {
+  /* Brand Maroon Spectrum */
+  --maroon-primary: #6B1728;
+  --maroon-hover: #821D32;
+  --maroon-dark: #4F101E;
+  --maroon-light: #94253B;
+  --maroon-50: #FBF2F4;
+  --maroon-100: #F6E4E7;
+  --maroon-200: #ECC8CE;
+  --maroon-wash: rgba(107, 23, 40, 0.04);
+  --maroon-wash-hover: rgba(107, 23, 40, 0.08);
+  --maroon-border: rgba(107, 23, 40, 0.15);
+
+  /* Warm Beige & Neutral Spectrum (NO Dark Theme) */
+  --bg-page: #FAF7F2;
+  --bg-surface: #FFFFFF;
+  --bg-subtle: #F4EFEA;
+  --bg-subtle-accent: #EFE8E0;
+  --bg-warm-tint: #F7F3EE;
+
+  /* Accent Gold / Amber */
+  --accent-gold: #D97706;
+  --accent-gold-light: #FEF3C7;
+  --accent-gold-dark: #B45309;
+
+  /* Functional Status Colors */
+  --status-success: #15803D;
+  --status-success-bg: #DCFCE7;
+  --status-warning: #B45309;
+  --status-warning-bg: #FEF3C7;
+  --status-info: #1D4ED8;
+  --status-info-bg: #DBEAFE;
+  --status-error: #B91C1C;
+  --status-error-bg: #FEE2E2;
+
+  /* Typography & Neutrals */
+  --text-primary: #1F242D;
+  --text-secondary: #4B5565;
+  --text-muted: #6C7381;
+  --text-light: #9CA3AF;
+  --text-inverse: #FFFFFF;
+
+  /* Borders & Dividers */
+  --border-subtle: #E8DFD5;
+  --border-medium: #DDD2C5;
+  --border-focus: #6B1728;
+
+  /* Shadows - Subtle warm elevation */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-sm: 0 2px 8px rgba(107, 23, 40, 0.04), 0 1px 3px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 8px 24px -4px rgba(107, 23, 40, 0.06), 0 2px 8px -2px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 16px 36px -6px rgba(107, 23, 40, 0.09), 0 4px 12px -3px rgba(0, 0, 0, 0.05);
+  --shadow-hover: 0 12px 28px -4px rgba(107, 23, 40, 0.12), 0 4px 10px -2px rgba(0, 0, 0, 0.04);
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Fonts */
+  --font-heading: 'Outfit', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 350ms cubic-bezier(0.16, 1, 0.3, 1);
+}
